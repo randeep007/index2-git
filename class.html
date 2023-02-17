@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add_numbers() {
+            let fnum = parseInt(document.getElementById("one").value);
+            let snum = parseInt(document.getElementById("two").value);
+
+            document.getElementById("display_content").innerHTML = ("Addition of two numbers" + (fnum + snum));
+        }
+    </script>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <label for="one">Enter First Number:</label>
+            <input type="number" name="one" id="one">
+        </tr>
+        <br>
+        <tr><label for="two">Enter Second Number:</label>
+            <input type="number" name="two" id="two">
+        </tr>
+        <tr>
+        <tr>
+            <td><input type="button" name="add_btn" id="add_btn" value="Add Numbers" onclick="add_numbers();"> </td>
+        </tr>
+        </tr>
+    </table>
+    <p id="display_content"></P>
+</body>
+
+</html>

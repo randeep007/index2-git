@@ -1,0 +1,1576 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+/* 
+/* comment out */
+
+
+/*h1 {
+    color: blueviolet;
+    font-size: 4rem;
+}
+
+p {
+    color: cornflowerblue;
+}
+
+
+h1,
+h2 {
+    color: blue;
+}
+*/
+
+
+/*specific headings or paras
+
+#heading {
+    color: red;
+    background: black;
+}
+
+#subheading {
+    color: green;
+}
+*/
+
+
+/* how to select classes*/
+
+
+/*.green {
+    color: green;
+}
+
+.red {
+    color: red;
+    background: grey;
+}
+*/
+
+
+/*#title {
+    font-size: 40px;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+*/
+
+
+/* for class 
+div {
+    color: blue;
+    background: grey;
+}
+
+span {
+    text-transform: uppercase;
+}
+*/
+
+
+/*body {
+    font-family: monospace;
+    line-height: 1.5ems;
+}
+
+div {
+    color: blue;
+    border: 3px solid black;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    color: red;     
+}
+*/
+
+
+/*
+.red {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+*/
+
+
+/*universal selector*/
+
+
+/*
+(*) {
+    color: blue;
+}
+*/
+
+
+/*how to call a id*/
+
+
+/*
+#first {
+    color: rgb(255, 0, 0);
+    background-color: chocolate;
+}
+
+#second {
+    color: rgb(0, 255, 0);
+    background: rgb(255, 255, 255);
+}
+
+#third {
+    color: rgb(0, 0, 255);
+    background: rgb(100, 100, 100);
+}
+*/
+
+
+/*rgba transperency values from 0-1*/
+
+
+/*#first {
+    color: rgb(100, 123, 56);
+    background: rgba(0, 0, 0, 0.5);
+}
+*/
+
+
+/*
+#first {
+    color: #ff0000;
+    background: #000;
+}
+*/
+
+
+/*#second {
+    color: rgb(45, 200, 34);
+    background: rgba(0, 0, 0, 0.25);
+}
+*/
+
+
+/*
+#second {
+    color: #fff;
+    background: #00FF00;
+}
+
+#third {
+    color: rgb(255, 0, 0);
+    background: rgba(0, 0, 0, 0);
+}
+
+#fourth {
+    color: rgb(0, 0, 255);
+    background: rgba(0, 0, 0, 1);
+}
+*/
+
+
+/*body {
+    background: rgba(10, 200, 200, 0.33);
+}
+
+*/
+
+
+/* RGB = RED GREEN BLUE* 255 total/
+/*coolors = site = diff color palates*/
+
+
+/* font size width height pixels*/
+
+
+/*h1 {
+    font-size: 60px;
+    width: 200px;
+    height: 300px;
+    background: blueviolet;
+}
+*/
+
+
+/*relative parent  
+em= relative depends on parent
+1em = 16px default browser style
+1em = base value
+*/
+
+
+/*
+.outer {
+    width: 200px;
+    height: 200px;
+    background: blue;
+}
+
+.inner {
+    width: 100%;
+    height: 50%;
+    background: red;
+}
+
+*/
+
+
+/* 1em =16px*/
+
+
+/* relative depends on root */
+
+
+/*.relative {
+    font-size: 2em;
+}
+
+.absolute {
+    font-size: 32px;
+}
+*/
+
+
+/*right now em = 10 px taking th base value and 2em = 20px*/
+
+
+/*
+div {
+    font-size: 10px;
+}
+*/
+
+
+/* rem = relative depends on root*
+1 rem = 16px default browser style*/
+
+
+/*
+.relative {
+    font-size: 2rem;
+}
+
+.absolute {
+    font-size: 64px;
+}
+
+html {
+    font-size: 32px;
+}
+*/
+
+
+/*vh - height - percent of the screen
+vw - width - percent of the screen*/
+
+
+/*
+(* ){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    background: blue;
+}
+
+.banner {
+    width: 50vw;
+    height: 50vh;
+    background: red;
+}
+
+*/
+
+
+/*h2 {
+    color: red;
+    font-size: 60px;
+}
+
+*/
+
+
+/*calc() 
+perform math operations + , - , * , /
+mix and match values
+*/
+
+
+/*
+(*) {
+    margin: 0;
+}
+
+ 
+.navbar {
+    background: blue;
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+}
+
+.banner {
+    background: red;
+    min-height: calc(100vh-100px);
+}
+*/
+
+
+/* font size font family*/
+
+
+/* generic = serif , sans-serif, cursive,fantasy,monospace */
+
+
+/* 
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+} */
+
+
+/* 
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-style: italic;
+    /* text-align: right; 
+} */
+
+
+/* h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+
+/* .main {
+    font-family: "Yesteryear", cursive;
+    text-align: center;
+}
+
+.subheading {
+    font-style: normal;
+} */
+
+
+/* .one {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.two {
+    font-weight: lighter;
+    font-style: oblique;
+} */
+
+
+/* text align and text indent*/
+
+
+/* .one {
+    text-indent: 100px;
+}
+
+.two {
+    text-align: left;
+} */
+
+
+/*line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+*/
+
+
+/* a {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+body {
+    text-transform: uppercase;
+}
+
+h1 {
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+
+.one {
+    line-height: 2.5em;
+}
+
+.two {
+    letter-spacing: 5px;
+    text-decoration: overline;
+    line-height: 2rem;
+}
+
+.three {
+    word-spacing: 20px;
+    text-decoration: underline;
+} */
+
+
+/* css box model */
+
+
+/* 
+
+
+h1 {
+    background: red;
+    /* padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 25px;
+    padding-right: 50px; 
+    padding: 20px;
+    /* margin-right: 0;
+    margin-bottom: 0; 
+    margin: 30px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue; 
+    border-bottom-style: dashed;
+    border-bottom-width: 5px;
+    border-bottom-color: black;
+}
+
+p {
+    background: blue;
+    /* padding: 50px; 
+    /* padding: 30px 60px; 
+    /* first top , right,bottom,left 
+    /* padding will create space for text 
+    /* padding: 20px 40px 60px 10px; 
+    padding: 20px;
+    margin-top: 0;
+    margin: 50px 20px 20px 50px;
+    border: 13px solid green;
+} */
+
+
+/* border-radius
+negative margin
+ */
+
+
+/* h1 {
+    background: red;
+    padding: 20px;
+    /* margin: 30px; 
+    /* border-bottom-style: dashed;
+    border-bottom-width: 5px;
+    border-bottom-color: black; 
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+p {
+    background: blue;
+    padding: 20px;
+    /* margin-top: 0;
+    margin: 50px 20px 20px 50px; 
+    border: 13px solid green;
+    border-radius: 50%;
+    margin-top: -100px;
+} */
+
+
+/* outline property and ofset*/
+
+/* .buttons {
+    margin: 3ems;
+}
+
+a {
+    background: green;
+    text-decoration: none;
+    padding: 1.2rem 1.5rem;
+    color: #222;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#one {
+    border: 0.2rem solid #222;
+}
+
+#two {
+
+    outline-width: 0.2rem;
+    outline-style: solid;
+    outline-color: #222;
+    outline: 0.2rem solid #222;
+    outline-offset: 10px;
+    outline-offset: -10px;
+} */
+/* gogle fonts */
+/* block: always starts a new line and takes fll width
+ inline: does not start and only take up as much as content space */
+
+
+/* .block {
+    background: blue;
+    color: white;
+    /* display: inline; 
+}
+
+.inline {
+    background: red;
+    color: white;
+    /* display: block; 
+} 
+
+/*horizontal centering */
+
+/* body {
+    text-align: center;
+}
+
+.block {
+    background: blue;
+    color: white;
+    width: 150px;
+    margin: 20px auto;
+    /* margin-left: auto;
+    margin-right: auto; 
+    /* display: inline; 
+}
+
+.inline {
+    background: red;
+    color: white;
+    /* display: block ; 
+} */
+
+/* mobile navbar
+list-style-type:property
+descendant selectors */
+
+/* div {
+    background: blue;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+} */
+
+/* * {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* to select all the children of unordered list by ul li 
+ul li {
+    list-style-type: square;
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background: #222;
+    color: orange;
+    /* padding: 5px;
+    margin: 10px 10px;
+     
+    display: block;
+    padding: 10px 10px;
+    margin: 10px; 
+
+
+
+}*/
+
+/* inline elements */
+
+/* a {
+    font-size: 60px;
+    background: red;
+    margin: 60px;
+    display: inline-block;
+} */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.box-1 {
+    background: red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box-2 {
+    background: blue;
+
+}
+
+.box-3 {
+    background: green;
+    padding: 20px;
+
+} */
+
+/* display:none 
+opacity:0(visibility)
+visibility:hidden*/
+
+
+/* ---------------------background image,repear,size,attachment,position------------------- */
+
+/* div {
+    /* min-height: 300px; 
+    min-height: 100vh;
+    color: green;
+    font-size: 60px;
+} */
+
+/* .bigimg {
+    background: url("/Users/randeepsingh/Desktop/HTML/pexels-photo-590135.jpeg");
+    /* background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.smallimg {
+    background: url("/Users/randeepsingh/Desktop/HTML/pexels-photo-14683691.jpeg");
+
+    /* background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: space;
+    background-repeat: round; 
+    border: 2px solid red;
+     background-size: cover; 
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: bottom;
+    background-position: left;
+    background-position: right;
+    background-position: top; 
+    this for 20% x axis and 50% y axis 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     x = ----> and y = downwards 
+}
+
+.folderimg {
+    background: url("/Users/randeepsingh/Desktop/HTML/pexels-photo-590135.jpeg");
+    /* background-size: contain; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* < !-- -------------Last Rule Order------- --> */
+/* div {
+    height: 300px;
+    color: red;
+} */
+/* -------------flex box background attachment(photo is fixed and text will move)----------- 
+
+(* ){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    min-height: 100vh;
+    color: blue;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+/* -------gradience ------*/
+/* body {
+    display: flex;
+} */
+
+/* div {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.one {
+    background: linear-gradient(to bottom, red, green);
+}
+
+.two {
+    background: linear-gradient(to top, red, green, blue);
+}
+
+.three {
+    background: linear-gradient(315deg, red, green);
+}
+
+.four {
+    background: linear-gradient(to top left, red, green);
+}
+
+.five {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+}
+
+.six {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+} */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+}
+
+.banner {
+    background: url("lab.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("lab.webp") center/cover no-repeat fixed;
+}
+
+/* --------colorzilla------ 
+
+.colorzilla {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d829cd+44,17547c+55&0.68+0,1+100 
+    background: -moz-linear-gradient(left, rgba(216, 41, 205, 0.68) 0%, rgba(216, 41, 205, 0.82) 44%, rgba(23, 84, 124, 0.86) 55%, rgba(23, 84, 124, 1) 100%);
+    /* FF3.6-15 
+    background: -webkit-linear-gradient(left, rgba(216, 41, 205, 0.68) 0%, rgba(216, 41, 205, 0.82) 44%, rgba(23, 84, 124, 0.86) 55%, rgba(23, 84, 124, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 
+    background: linear-gradient(to right, rgba(216, 41, 205, 0.68) 0%, rgba(216, 41, 205, 0.82) 44%, rgba(23, 84, 124, 0.86) 55%, rgba(23, 84, 124, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#add829cd', endColorstr='#17547c', GradientType=1);
+    /* IE6-9 
+} */
+/* .banner {
+    border: 5px solid red;
+    padding: 10px;
+    overflow: hidden;
+    /* overflow will not let image go out of border jitni marzi height width ho 
+
+}
+
+.one {
+    float: right;
+    margin-left: 50px;
+} */
+
+/* .two {
+    float: left;
+    height: 300px;
+    /* width: 2000px; 
+} */
+
+/* p {
+    clear: both;
+} */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    float: left;
+    height: 400px;
+    width: 33.33%;
+}
+
+.one {
+
+    background: red;
+}
+
+.two {
+    background: blue;
+
+}
+
+.three {
+
+    background: green;
+
+}
+
+h1 {
+    clear: both;
+} */
+/* -----static relative absolute fixed */
+/* button {
+    background: red;
+    font-size: 40px;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* if we use fixed it will fix the value and if we scroll the value will be fixed and move with it 
+} */
+
+/* div {
+    border: 3px solid red;
+    background: yellow;
+    margin-top: 40px;
+    /* text-align: right; */
+/* position: static; */
+
+/* static position elements are not affected by top bottom left right */
+/* position: relative; 
+} */
+
+/* .one {
+    background: blue;
+    /* text-align: left; */
+/* position: relative; */
+/* top: 50px; */
+/* left: 20rem; */
+/* right: 50%;
+    bottom: 20px; 
+} */
+
+/* .two {
+    background: green;
+    /* position: relative; 
+} */
+
+/* .special {
+    background: lightcoral;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    /* absolute can overlap elements /it is positioned relative to the nearest positioned ancestor 
+    it will find the nearest relative and overlap that
+} */
+/* Media Queries 
+Responsive Design 
+Style Elements on different screen sizes
+ min-width: ---- starting from max-width: ---- up to 
+ mobile first */
+/* body {
+    background: yellow;
+
+}
+
+.banner {
+    background: blue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+} */
+
+/* media screen if we like cross 576 width of screen it will use properties of media 
+leave space after and (no syntax error allowed)*/
+/* @media screen and (min-width:576px) {
+    body {
+        background: red;
+    }
+
+    .banner {
+        background: yellow;
+    }
+
+    h1 {
+        color: black;
+        font-size: 60px;
+    }
+} */
+
+
+/* it will only override if it has same properties in more than one media  */
+
+/* @media screen and (max-width:576px) {
+    body {
+        background: red;
+    }
+
+    .banner {
+        background: yellow;
+        border-radius: 20px;
+    }
+
+    h1 {
+        color: black;
+        font-size: 60px;
+    }
+} */
+
+/* 768 overrides 576 as it includes it */
+/* @media screen and (max-width:768px) {
+    body {
+        background: green;
+    }
+
+    .banner {
+        background: blue;
+    }
+
+    h1 {
+        color: red;
+        font-size: 60px;
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+} */
+/* ---------z-index --- z-axis
+    position: static --- does not work  only works with absolute and relative  */
+
+/* img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /* we can place object on one another through absolute
+}
+
+.banner {
+    margin: 20px;
+    width: 80vw;
+    height: 70vh;
+    border: 5px solid red;
+    position: relative;
+}
+
+.one {
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: 100;
+}
+
+.two {
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+}
+
+.three {
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+} */
+
+/* ----- pseudo elements ::before ::after CONTENT not element 
+  content:'' --- required (even you are not gonna write something in content still we need content = "")
+  img ---- does not work  */
+
+/* p::before {
+    content: "hello ";
+    display: block;
+    background: black;
+    font-weight: bold;
+    font-size: 2rem;
+    color: red;
+}
+
+p::after {
+    content: "";
+    /* font-weight: bold;
+    font-size: 2rem;
+    color: red;
+    background: black; */
+/* block will shift the para to next line and inline will keep it in the same 
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+div {
+    width: 50vw;
+    margin: 100px auto;
+    /* border: 2px solid red; 
+    position: relative;
+}
+
+img {
+    width: 100%;
+    display: block;
+    /* display:block has maximum control over styling of the image  responsive*/
+
+
+/* image is the content cant add the before and after elements */
+/* img::before {
+    content: "hello ";
+} 
+
+div::before {
+    content: "";
+    border: 2px solid grey;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    top: -40px;
+    left: -40px;
+    z-index: -2;
+}
+
+div::after {
+    content: "";
+    background: grey;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+    transition: all 0.5s linear;
+}
+
+div:hover::after,
+div:hover::before {
+    top: 0;
+    left: 0;
+} */
+
+/* ----basic selectors-- */
+/* (*){
+    color: red;
+}
+
+#heading {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.heading {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: green;
+
+}
+
+p {
+    letter-spacing: 20px;
+} */
+/* if we want to select all the h1 under div 
+write like this as div is anscestor */
+/* div h1 {
+    color: red;
+} */
+
+/* in this case the h1 who are direct 
+descendant of div they will change 
+in second one ul is also coming */
+/* div>h1 {
+    color: blue;
+}
+
+.header h1 {
+    color: green;
+}
+
+.header>h1 {
+    color: purple;
+} */
+
+/* -------- ::first-line ::first-letter -------*/
+/* p::first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 3rem;
+} */
+
+
+/* --:hover---- */
+/* hover means when we point out on it it will change the property 
+that we have written */
+/* p:hover {
+
+    color: red;
+}
+
+.header:hover {
+    background: blue;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+} */
+
+/* -----:link :visited :hover :active ----- */
+/* a:link {
+    color: aqua;
+
+} */
+
+/* if we use # and click visited it will put 
+the properties of visited and if we specift any of the links it will not change
+the links will turn red after coming back as they are visited links */
+/* a:visited {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: green;
+} */
+
+/* :root  root element of the document
+html elements
+general styles
+css variables */
+/* 1 rem ==16px rem changes with browser settings(user)*/
+/* :root {
+    /* rem is relative to the root */
+/* if we change the root
+    the properties relative to it like rem
+    it will get changed */
+/* background: red; 
+    font-size: 150%;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.absolute {
+    font-size: 24px;
+}
+
+.responsive {
+    font-size: 1.5rem;
+} */
+
+/* transform : translate() , scale() , rotate() , skew() */
+/* transition:change over time
+transition-property:
+transition-duration: */
+
+
+/* div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+/* div:hover {
+    background: coral;
+} 
+
+.one {
+    background: red;
+    /* transform: translateX(50%); */
+/* movement towards x axis */
+/* scalex (it will inc/dec the width of it  
+    transform: scaleX(2);
+    transform: scaleY(0.5);
+    /* scale = inc/dec size  
+    transform: rotate(340deg);
+    transform: skewX(20deg);
+}
+
+.two {
+    background: green;
+    transform: translateY(30px);
+    transform: rotateZ(45deg);
+    /* rotate = rotate  
+    transform: skewY(30deg);
+
+}
+
+.three {
+    background: blue;
+    /* transform: translateX(75px); */
+/* transform: translate(200px, 300px);
+    transform: scale(0.5, 0.5); */
+/* transform: rotateX(20deg); */
+/* transform: rotateY(80deg);
+    transform: skewY(-20deg); */
+/* transition-property: background, border-radius;
+    transition-duration: 4s, 2s;
+    transition-delay: 3s; 
+    transition: background 3s 2s, border-radius 5s 1s;
+    transition: all 4s 5s;
+
+}
+
+.three:hover {
+    border-radius: 50%;
+    background: coral;
+} */
+/* how the transition takes place
+transition-timing-function:
+transition:all 3s here 5s
+ease=default
+ease= slow start, fast , slow end
+linear = same speed start to end
+ease-in = slow start
+ease-out = slow end
+ease-in-out = slow start , fast , slow end */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: white;
+    margin: 15px;
+    transition: all 1s;
+    /* all covers all properties
+    syntax = all , duration,timing function, delay 
+}
+
+div:hover {
+    transform: translateX(100px);
+}
+
+.ease {
+    /* transition: all 2s ease; 
+    transition-timing-function: ease;
+}
+
+.linear {
+    transition-timing-function: linear;
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+} */
+
+/* Transition 0 = 100%
+(it goes 0 to 100%)
+Animation 0 1% 2% ..... 100% */
+
+/* div {
+    width: 200px;
+    height: 100px;
+    color: white;
+    margin: 10px;
+} */
+
+/* .transition {
+    background: red;
+    transition: all 2s linear;
+}
+
+.transition:hover {
+    background: yellow;
+    transform: translateX(100px);
+} */
+
+/* .animation {
+    background: blue;
+    /* long way */
+/* animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: 2; */
+
+/* (count = how many times 
+    the animation should work) */
+
+/* short way
+    animation: move 5s infinite;
+    /* syntax = animation name , duration , count */
+
+
+/* animation duration is related
+    to percentage values like draton = 1s
+    then 50% changes to 0.5%)
+} */
+
+/* @keyframes move { */
+/* 0% {
+        transform: translateX(20px);
+    }
+
+    50% {
+        transform: translateX(100px);
+        background: red;
+    }
+
+    75% {
+        transform: translateX(-100px);
+        background: yellow;
+    }
+
+    100% {
+        transform: translateX(20px);
+        background: green;
+    } */
+
+
+
+/* animation-fill-mode: what values are applied 
+by the animation outside  */
+
+/* div {
+    width: 200px;
+    height: 100px;
+    color: white;
+    margin: 10px;
+}
+
+.animation {
+    background: blue;
+    animation: move 5s 2;
+    /* duration like speed more number it
+    will be slow 
+    animation-fill-mode: forwards;
+    /* forward will end at the last property and backward will take
+     it original value 
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        transform: translateX(200px);
+        opacity: 0.25;
+    }
+
+    50% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(20px);
+        opacity: 0.5;
+    }
+} */
+
+/* CSS variables AKA Custom Properties
+hold a value and reuse it  
+--varName:value
+property:var(--varName)
+scope
+:root{} === global
+element === local
+any property*/
+
+/* .heading {
+    color: #f15039;
+}
+
+.text {
+    color: #32ff0e;
+}
+
+.main-text {
+    color: #1313fa;
+}
+
+.second-heading {
+    color: #f15025;
+} */
+
+/* :root {
+    /* storing colors 
+    --primaryColor: #1313fa;
+    --secondaryColor: #f15025;
+    --mainTransition: all 0.4s linear;
+}
+
+.heading {
+    color: var(--primaryColor);
+
+}
+
+.second-heading {
+    color: var(--primaryColor);
+    transition: var(--mainTransition);
+}
+
+.second-heading:hover {
+    color: var(--secondaryColor);
+
+}
+
+div {
+    --primaryRed: red;
+    /* local  scoped
+} */
+
+/* .main-text {
+    color: var(--primaryRed);
+}
+
+.third-heading {
+    color: var(--primaryRed);
+} */
+/* ICONS
+Font-Awesome Icons
+Free,Easy to get up running, simple syntax 
+awsometexts.com*/
+
+/* text shadow
+box shadow */
+
+/* h1 {
+    /* text-shadow: 1px 1px 10px red; 
+    ext-shadow: 2px 7px 4px rgba(0, 0, 0, 0.7);
+    /* syntax= shadow(towards x), y , blur 
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background: blue;
+    margin: 20px;
+    transition: all 0.5s linear;
+    /* box-shadow: 3px 5px 5px green; */
+/* syntax same as shadow 
+    bo shadow generator.com
+    text shadow generator.com
+    caniuse.com
+    autoprefixer.com
+}
+
+.box:hover {
+    -webkit-box-shadow: -40px -37px 54px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -40px -37px 54px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: -40px -37px 54px -6px rgba(0, 0, 0, 0.75);
+} */
+
+/* --------semantic html----------- */
+/* .bi-alarm {
+    font-size: 2rem;
+    color: red;
+}
+
+.special {
+    font-size: 2rem;
+    color: red;
+} */
+
+/* ---------is = used for shorter code----------  */
+/* nav h2:hover,
+header h2:hover,
+section h2:hover {
+    color: red;
+} */
+/* :is(nav, header, section) h2:hover {
+    color: red;
+} */
+
+/* ----not----- */
+
+/* .special :not(h1) {
+    color: red;
+} */
+
+/* hsl color wheel */
+/* hsl stands for hue,saturation and lightness
+
+hsl color values are specified with:
+hsl(hue,saturation,lightness)
+
+hue is a degree on the color wheel from 0 to 360. 
+0 is red ,120 is green, 240 is blue.
+
+Saturation is a percentage value; 0% means a shade of grey
+and 100% is the full color.
+
+Lightness is also a percentage; 0% is black , 100% is white.*/
+* {
+    margin: 0;
+
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+    border: 1px solid orange;
+}
+
+.box-1 {
+    background: hsl(0, 100%, 50%)
+}
+
+.box-2 {
+    background: hsl(120, 100%, 50%);
+
+}
+
+.box-3 {
+    background: hsl(120, 50%, 50%)
+}
+
+.box-4 {
+    background: hsl(120, 100%, 50%)
+}
+
+
+/* target = blank it will open in new tab */

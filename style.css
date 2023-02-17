@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: #064877;
+    margin-right: 0;
+    margin-bottom: 0;
+
+
+}
+
+span {
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+
+}
+
+h2 {
+    color: white;
+    padding-top: 50px;
+}
+
+.signup {
+    text-decoration: dotted;
+}
+
+.button1 {
+    text-indent: 50px;
+    color: rgba(255, 255, 255, 0.862);
+}
+
+.buttoncolor {
+    background-color: #106781;
+    width: 100vw;
+    height: 5vh;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.photo1 {
+    height: 500px;
+    width: 1440px;
+    /* cursor: pointer;
+    cursor: alias; */
+}
+
+.medicine {
+    width: 300px;
+    height: 100px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-top: 30px;
+    padding-right: 50px;
+    margin-top: 90px;
+    margin-left: 110px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-color: black;
+    border-radius: 10px;
+
+
+}
+
+.login {
+    position: relative;
+    left: 1060px;
+    bottom: 20px;
+
+}
+
+.shift {
+    position: relative;
+    left: 1060px;
+    bottom: 20px;
+    border: 2px solid #000000;
+    background-color: #2C74B3;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}

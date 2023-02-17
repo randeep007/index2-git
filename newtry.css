@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #0A2647;
+    height: 85px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+h1 {
+    position: absolute;
+    left: 0.18%;
+    right: 30.1%;
+    padding-left: 25px;
+    top: 0%;
+    bottom: 2.99%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.com {
+    position: absolute;
+    left: 12.2%;
+    right: 0%;
+    top: 27.36%;
+    bottom: 17.93%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.signup {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 84%;
+    right: 0%;
+    top: 30%;
+    bottom: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 150;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.login {
+    position: relative;
+    left: 88.8%;
+    background: #2C74B3;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 150;
+    font-size: 18px;
+    line-height: normal;
+    text-decoration: none;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 2.5);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+ul#nav li {
+    display: inline;
+    padding-right: 50px;
+}
+
+#nav {
+    background-color: #2C74B3;
+}
+
+.navi {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 1px;
+    font-size: 15px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+ul {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: 37.39px;
+}
